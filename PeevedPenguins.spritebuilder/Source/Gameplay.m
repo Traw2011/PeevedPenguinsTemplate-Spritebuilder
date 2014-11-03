@@ -32,7 +32,7 @@
     //postion the penguin at the bowl of the catapult
     penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     
-    //add the penguin to the physicsNode of this scene (because it has physiics enabled
+    //add the penguin to the physicsNode of this scene (because it has physics enabled
     [_physicsNode addChild:penguin];
     
     //manually add and apply a force to launch penguin
