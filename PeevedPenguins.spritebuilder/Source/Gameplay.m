@@ -35,6 +35,13 @@
     //loads  the Penguin.CCB we have set up in Spritebuilder
     CCNode * penguin = [CCBReader load:@"Penguin"];
     
+    //ensure followed object is in visible area when starting
+    self.position = ccp(0,0);
+    CCActionFollow* follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
+    [self runAction:follow];
+    
+    
+    
     //postion the penguin at the bowl of the catapult
     penguin.position = ccpAdd(_catapultArm.position, ccp(16, 50));
     
