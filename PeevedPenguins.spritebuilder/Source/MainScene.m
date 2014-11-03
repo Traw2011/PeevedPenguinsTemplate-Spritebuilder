@@ -13,7 +13,7 @@
 //- (void)play{
 //    CCLOG(@"Play Button Pressed");
 //}
-
+//adds transition to the (now) empty gameplay scene
 - (void)play {
     CCScene * gamePlayScene = [CCBReader loadAsScene:@"Gameplay"];
     [[CCDirector sharedDirector] replaceScene:gamePlayScene];
