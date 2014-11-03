@@ -10,15 +10,17 @@
 
 @implementation Penguin
 
-- (id)init{
-    self = [super init];
-    
-    if (self)
-    {
-        CCLOG(@"Penguin Created");
-        
-    }
-    return self;
-}
+
+//initialize the CCSprite objects to make sure they work
+//- (id)init{
+//    self = [super init];
+//    
+//    if (self)
+//    {
+//        CCLOG(@"Penguin Created");
+//        
+//    }
+//    return self;
+//}
 
 @end
