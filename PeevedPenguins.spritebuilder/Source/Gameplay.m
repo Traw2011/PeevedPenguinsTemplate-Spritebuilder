@@ -8,10 +8,11 @@
 
 #import "Gameplay.h"
 
-@implementation Gameplay {
-    CCPhysicsNode * _physicsNode;
-    CCNode * _catapultArm;
-}
+@implementation Gameplay
+//{
+//    CCPhysicsNode * _physicsNode;
+//    CCNode * _catapultArm;
+//}
 
 //
 ////is called whenn CCB file has completed loading
