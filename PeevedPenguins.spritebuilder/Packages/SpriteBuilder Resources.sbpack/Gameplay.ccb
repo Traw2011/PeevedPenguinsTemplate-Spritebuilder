@@ -112,7 +112,7 @@
 				<key>displayName</key>
 				<string>background</string>
 				<key>memberVarAssignmentName</key>
-				<string>_contentNode</string>
+				<string></string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -205,10 +205,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
-				<key>seqExpanded</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -611,98 +607,98 @@
 							</dict>
 						</array>
 					</dict>
-				</array>
-				<key>customClass</key>
-				<string></string>
-				<key>displayName</key>
-				<string>CCNode</string>
-				<key>memberVarAssignmentName</key>
-				<string></string>
-				<key>memberVarAssignmentType</key>
-				<integer>1</integer>
-				<key>properties</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>name</string>
-						<key>type</key>
-						<string>StringSimple</string>
-						<key>value</key>
-						<string></string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>position</string>
-						<key>type</key>
-						<string>Position</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>contentSize</string>
-						<key>type</key>
-						<string>Size</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>anchorPoint</string>
-						<key>type</key>
-						<string>Point</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>scale</string>
-						<key>type</key>
-						<string>ScaleLock</string>
-						<key>value</key>
-						<array>
-							<real>1</real>
-							<real>1</real>
-							<false/>
-							<integer>0</integer>
-						</array>
-					</dict>
-				</array>
-			</dict>
-			<dict>
-				<key>UUID</key>
-				<integer>12</integer>
-				<key>baseClass</key>
-				<string>CCPhysicsNode</string>
-				<key>children</key>
-				<array>
 					<dict>
 						<key>UUID</key>
-						<integer>14</integer>
+						<integer>12</integer>
 						<key>baseClass</key>
-						<string>CCNode</string>
+						<string>CCPhysicsNode</string>
 						<key>children</key>
-						<array/>
+						<array>
+							<dict>
+								<key>UUID</key>
+								<integer>14</integer>
+								<key>baseClass</key>
+								<string>CCNode</string>
+								<key>children</key>
+								<array/>
+								<key>customClass</key>
+								<string></string>
+								<key>displayName</key>
+								<string>CCNode</string>
+								<key>memberVarAssignmentName</key>
+								<string>_levelNode</string>
+								<key>memberVarAssignmentType</key>
+								<integer>1</integer>
+								<key>properties</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>name</string>
+										<key>type</key>
+										<string>StringSimple</string>
+										<key>value</key>
+										<string></string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>position</string>
+										<key>type</key>
+										<string>Position</string>
+										<key>value</key>
+										<array>
+											<real>469</real>
+											<real>47</real>
+											<integer>0</integer>
+											<integer>0</integer>
+											<integer>0</integer>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>contentSize</string>
+										<key>type</key>
+										<string>Size</string>
+										<key>value</key>
+										<array>
+											<real>490</real>
+											<real>275</real>
+											<integer>0</integer>
+											<integer>0</integer>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>anchorPoint</string>
+										<key>type</key>
+										<string>Point</string>
+										<key>value</key>
+										<array>
+											<real>0.0</real>
+											<real>0.0</real>
+										</array>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>scale</string>
+										<key>type</key>
+										<string>ScaleLock</string>
+										<key>value</key>
+										<array>
+											<real>1</real>
+											<real>1</real>
+											<false/>
+											<integer>0</integer>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCNode</string>
+						<string>CCPhysicsNode</string>
 						<key>memberVarAssignmentName</key>
-						<string>_levelNode</string>
+						<string>_physicsNode</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>properties</key>
@@ -722,8 +718,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>469</real>
-									<real>47</real>
+									<real>0.0</real>
+									<real>0.0</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -736,8 +732,8 @@
 								<string>Size</string>
 								<key>value</key>
 								<array>
-									<real>490</real>
-									<real>275</real>
+									<real>0.0</real>
+									<real>0.0</real>
 									<integer>0</integer>
 									<integer>0</integer>
 								</array>
@@ -766,15 +762,34 @@
 									<integer>0</integer>
 								</array>
 							</dict>
+							<dict>
+								<key>name</key>
+								<string>gravity</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>-100</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>sleepTimeThreshold</string>
+								<key>type</key>
+								<string>Float</string>
+								<key>value</key>
+								<real>0.5</real>
+							</dict>
 						</array>
 					</dict>
 				</array>
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCPhysicsNode</string>
+				<string>CCNode</string>
 				<key>memberVarAssignmentName</key>
-				<string>_physicsNode</string>
+				<string>_contentNode</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -837,25 +852,6 @@
 							<false/>
 							<integer>0</integer>
 						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>gravity</string>
-						<key>type</key>
-						<string>Point</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>-100</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>sleepTimeThreshold</string>
-						<key>type</key>
-						<string>Float</string>
-						<key>value</key>
-						<real>0.5</real>
 					</dict>
 				</array>
 			</dict>
@@ -1256,6 +1252,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
