@@ -15,8 +15,12 @@
     CCNode * _levelNode;
 }
 
-//
-////is called whenn CCB file has completed loading
+-(void)retry {
+    //reload this level
+    [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
+}
+
+     //is called whenn CCB file has completed loading
 - (void)didLoadFromCCB{
     //tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
