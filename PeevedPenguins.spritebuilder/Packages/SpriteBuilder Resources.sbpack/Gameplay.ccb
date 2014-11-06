@@ -883,6 +883,8 @@
 								<string></string>
 								<key>displayName</key>
 								<string>ground</string>
+								<key>hidden</key>
+								<true/>
 								<key>memberVarAssignmentName</key>
 								<string></string>
 								<key>memberVarAssignmentType</key>
@@ -918,12 +920,12 @@
 											<real>0.0</real>
 										</array>
 										<array>
-											<real>2.1251602172851562</real>
-											<real>51.995899200439453</real>
+											<real>3.2163782119750977</real>
+											<real>36.061538696289062</real>
 										</array>
 										<array>
-											<real>959.44207763671875</real>
-											<real>48.976409912109375</real>
+											<real>962.83074951171875</real>
+											<real>34.240001678466797</real>
 										</array>
 										<array>
 											<real>960</real>
@@ -938,12 +940,12 @@
 												<real>0.0</real>
 											</array>
 											<array>
-												<real>959.44207763671875</real>
-												<real>48.976409912109375</real>
+												<real>962.83074951171875</real>
+												<real>34.240001678466797</real>
 											</array>
 											<array>
-												<real>2.1251602172851562</real>
-												<real>51.995899200439453</real>
+												<real>3.2163782119750977</real>
+												<real>36.061538696289062</real>
 											</array>
 											<array>
 												<real>0.0</real>
